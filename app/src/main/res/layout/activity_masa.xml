@@ -1,0 +1,201 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/shape2"
+    tools:context=".Masa">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+
+        <RelativeLayout
+            android:layout_width="409dp"
+            android:layout_height="729dp"
+            tools:layout_editor_absoluteX="1dp"
+            tools:layout_editor_absoluteY="1dp">
+
+
+            <ImageButton
+                android:id="@+id/imagebir"
+                android:layout_width="172dp"
+                android:layout_height="180dp"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentTop="true"
+                android:layout_marginStart="20dp"
+                android:layout_marginTop="10dp"
+                android:background="@drawable/kenarlik"
+                app:srcCompat="@drawable/baseline_table_restaurant_24"
+                tools:ignore="ContentDescription" />
+
+            <ImageButton
+                android:id="@+id/imageiki"
+                android:layout_width="172dp"
+                android:layout_height="180dp"
+                android:layout_alignParentTop="true"
+                android:layout_alignParentEnd="true"
+                android:layout_marginEnd="18dp"
+                android:layout_marginTop="10dp"
+                android:background="@drawable/kenarlik"
+                app:srcCompat="@drawable/baseline_table_restaurant_24"
+                tools:ignore="ContentDescription" />
+
+
+            <ImageButton
+                android:id="@+id/imageuc"
+                android:layout_width="172dp"
+                android:layout_height="180dp"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentTop="true"
+                android:layout_marginStart="20dp"
+                android:layout_marginTop="250dp"
+                android:background="@drawable/kenarlik"
+                app:srcCompat="@drawable/baseline_table_restaurant_24"
+                tools:ignore="ContentDescription" />
+
+            <ImageButton
+                android:id="@+id/imagealti"
+                android:layout_width="172dp"
+                android:layout_height="180dp"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentTop="true"
+                android:layout_marginEnd="18dp"
+                android:layout_marginTop="500dp"
+                android:background="@drawable/kenarlik"
+                app:srcCompat="@drawable/baseline_table_restaurant_24"
+                tools:ignore="ContentDescription" />
+
+
+            <ImageButton
+                android:id="@+id/imagebes"
+                android:layout_width="172dp"
+                android:layout_height="180dp"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentTop="true"
+                android:layout_marginStart="20dp"
+                android:layout_marginTop="500dp"
+                android:background="@drawable/kenarlik"
+                app:srcCompat="@drawable/baseline_table_restaurant_24"
+                tools:ignore="ContentDescription" />
+
+            <ImageButton
+                android:id="@+id/imagedort"
+                android:layout_width="172dp"
+                android:layout_height="180dp"
+                android:layout_alignParentTop="true"
+                android:layout_alignParentEnd="true"
+                android:layout_marginTop="250dp"
+                android:layout_marginEnd="18dp"
+                android:background="@drawable/kenarlik"
+                app:srcCompat="@drawable/baseline_table_restaurant_24"
+                tools:ignore="ContentDescription" />
+
+
+            <TextView
+                android:id="@+id/masabir"
+                android:layout_width="112dp"
+                android:background="@drawable/shape1"
+                android:backgroundTint="#36FFFFFF"
+                android:layout_height="30dp"
+                android:text="MASA 1"
+                android:textStyle="bold|italic"
+                android:textSize="20dp"
+                android:textColor="@color/black"
+                android:gravity="center"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentTop="true"
+                android:layout_marginStart="52dp"
+                android:layout_marginTop="199dp"
+                />
+
+            <TextView
+                android:id="@+id/masaiki"
+                android:layout_width="112dp"
+                android:background="@drawable/shape1"
+                android:backgroundTint="#36FFFFFF"
+
+                android:layout_height="30dp"
+                android:text="MASA 2"
+                android:textStyle="bold|italic"
+                android:textSize="20dp"
+                android:textColor="@color/black"
+                android:gravity="center"
+                android:layout_alignParentTop="true"
+                android:layout_alignParentEnd="true"
+                android:layout_marginTop="199dp"
+                android:layout_marginEnd="52dp"
+                />
+
+            <TextView
+                android:id="@+id/masaüc"
+                android:layout_width="112dp"
+                android:layout_height="30dp"
+                android:layout_alignParentStart="true"
+                android:background="@drawable/shape1"
+                android:backgroundTint="#36FFFFFF"
+
+                android:layout_alignParentTop="true"
+                android:layout_marginStart="52dp"
+                android:layout_marginTop="449dp"
+                android:gravity="center"
+                android:text="MASA 3"
+                android:textColor="@color/black"
+                android:textSize="20dp"
+                android:textStyle="bold|italic" />
+
+            <TextView
+                android:id="@+id/masadort"
+                android:background="@drawable/shape1"
+                android:backgroundTint="#36FFFFFF"
+                android:layout_width="112dp"
+                android:layout_height="30dp"
+                android:text="MASA 4"
+                android:textStyle="bold|italic"
+                android:textSize="20dp"
+                android:textColor="@color/black"
+                android:gravity="center"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentTop="true"
+                android:layout_marginTop="449dp"
+                android:layout_marginEnd="52dp" />
+
+            <TextView
+                android:id="@+id/masabes"
+                android:background="@drawable/shape1"
+                android:backgroundTint="#36FFFFFF"
+
+                android:layout_alignParentStart="true"
+                android:layout_alignParentTop="true"
+                android:layout_marginStart="52dp"
+                android:layout_marginTop="692dp"
+                android:layout_width="112dp"
+                android:layout_height="30dp"
+                android:text="MASA 5"
+                android:textStyle="bold|italic"
+                android:textSize="20dp"
+                android:textColor="@color/black"
+                android:gravity="center" />
+
+            <TextView
+                android:id="@+id/masaalti"
+                android:layout_width="112dp"
+                android:background="@drawable/shape1"
+                android:backgroundTint="#36FFFFFF"
+
+                android:layout_height="30dp"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentTop="true"
+                android:layout_marginEnd="52dp"
+                android:layout_marginTop="692dp"
+                android:text="MASA 6"
+                android:textStyle="bold|italic"
+                android:textSize="20dp"
+                android:textColor="@color/black"
+                android:gravity="center" />
+
+        </RelativeLayout>
+    </ScrollView>
+</RelativeLayout>

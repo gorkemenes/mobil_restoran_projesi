@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item android:title="Menü"
+        android:id="@+id/menu"
+        android:icon="@drawable/menuicon"/>
+
+    <item android:title="Siparişim"
+        android:id="@+id/siparis"
+        android:icon="@drawable/siparisicon"/>
+
+    <item android:title="Profil"
+        android:id="@+id/profil"
+        android:icon="@drawable/profilicon"/>
+</menu>

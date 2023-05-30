@@ -1,0 +1,1336 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/menunott"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MenuFragment"
+    android:background="@drawable/shape2">
+
+    <!-- TODO: Update blank fragment layout -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/baslik"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:textColor="@color/black"
+                android:textSize="35sp"
+                android:textStyle="bold" />
+
+            <HorizontalScrollView
+                android:layout_width="match_parent"
+                android:layout_height="125dp">
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:background="@color/black"
+                    android:orientation="horizontal">
+
+                    <ImageButton
+                        android:id="@+id/corba"
+                        android:layout_width="150dp"
+                        android:layout_height="match_parent"
+                        android:layout_marginStart="5dp"
+                        android:layout_marginTop="5dp"
+                        android:layout_marginEnd="5dp"
+                        android:layout_marginBottom="5dp"
+                        android:layout_weight="1"
+                        android:background="@drawable/roundedcorner"
+                        android:scaleType="centerCrop"
+                        android:src="@drawable/corba" />
+
+                    <ImageButton
+                        android:id="@+id/pide"
+                        android:layout_width="150dp"
+                        android:layout_height="match_parent"
+                        android:layout_marginStart="5dp"
+                        android:layout_marginTop="5dp"
+                        android:layout_marginEnd="5dp"
+                        android:layout_marginBottom="5dp"
+                        android:layout_weight="1"
+                        android:background="@drawable/roundedcorner"
+                        android:scaleType="centerCrop"
+                        android:src="@drawable/pide" />
+
+                    <ImageButton
+                        android:id="@+id/doner"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_marginStart="5dp"
+                        android:layout_marginTop="5dp"
+                        android:layout_marginEnd="5dp"
+                        android:layout_marginBottom="5dp"
+                        android:layout_weight="1"
+                        android:background="@drawable/roundedcorner"
+                        android:scaleType="centerCrop"
+                        android:src="@drawable/doner" />
+
+                    <ImageButton
+                        android:id="@+id/izgara"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_marginStart="5dp"
+                        android:layout_marginTop="5dp"
+                        android:layout_marginEnd="5dp"
+                        android:layout_marginBottom="5dp"
+                        android:layout_weight="1"
+                        android:background="@drawable/roundedcorner"
+                        android:scaleType="centerCrop"
+                        android:src="@drawable/izgara" />
+
+                    <ImageButton
+                        android:id="@+id/tatli"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_marginStart="5dp"
+                        android:layout_marginTop="5dp"
+                        android:layout_marginEnd="5dp"
+                        android:layout_marginBottom="5dp"
+                        android:layout_weight="1"
+                        android:background="@drawable/roundedcorner"
+                        android:scaleType="centerCrop"
+                        android:src="@drawable/tatli" />
+
+                    <ImageButton
+                        android:id="@+id/icecek"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_marginStart="5dp"
+                        android:layout_marginTop="5dp"
+                        android:layout_marginEnd="5dp"
+                        android:layout_marginBottom="5dp"
+                        android:layout_weight="1"
+                        android:background="@drawable/roundedcorner"
+                        android:scaleType="centerCrop"
+                        android:src="@drawable/icecek" />
+                </LinearLayout>
+            </HorizontalScrollView>
+        </LinearLayout>
+
+        <RelativeLayout
+            android:id="@+id/panel"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginStart="20dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginEnd="20dp"
+            android:layout_marginBottom="20dp"
+            android:background="@drawable/shape3">
+
+            <ScrollView
+                android:id="@+id/corbapanel"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentTop="true"
+                android:layout_marginStart="5dp"
+                android:layout_marginTop="5dp"
+                android:layout_marginEnd="5dp"
+                android:layout_marginBottom="5dp"
+                android:background="@drawable/shape2_radius">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginStart="15dp"
+                    android:layout_marginTop="15dp"
+                    android:layout_marginEnd="15dp"
+                    android:layout_marginBottom="15dp"
+                    android:orientation="vertical"
+                    android:background="@drawable/shape2">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="120dp"
+                        android:layout_marginBottom="10dp"
+                        android:background="@drawable/shape2"
+                        android:orientation="horizontal">
+
+                        <ImageView
+                            android:layout_width="100dp"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center"
+                            android:layout_marginStart="10dp"
+                            android:gravity="center"
+                            android:src="@drawable/mercimek" />
+
+                        <TextView
+                            android:layout_width="125dp"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center"
+                            android:layout_marginStart="10dp"
+                            android:fontFamily="monospace"
+                            android:gravity="center"
+                            android:text="Mercimek Çorbası"
+                            android:textSize="17sp"
+                            android:textStyle="bold" />
+
+                        <Button
+                            android:id="@+id/corba1"
+                            android:layout_width="50dp"
+                            android:layout_height="50dp"
+                            android:layout_gravity="center"
+                            android:layout_marginStart="30dp"
+                            android:background="@drawable/roundedcorner"
+                            android:gravity="center"
+                            android:text="+"
+                            android:textSize="20sp" />
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="120dp"
+                        android:layout_marginBottom="10dp"
+                        android:background="@drawable/shape2"
+                        android:orientation="horizontal">
+
+                        <ImageView
+                            android:layout_width="100dp"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center"
+                            android:layout_marginStart="10dp"
+                            android:gravity="center"
+                            android:src="@drawable/yayla" />
+
+                        <TextView
+                            android:layout_width="125dp"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center"
+                            android:layout_marginStart="10dp"
+                            android:fontFamily="monospace"
+                            android:gravity="center"
+                            android:text="Yayla Çorbası"
+                            android:textSize="17sp"
+                            android:textStyle="bold" />
+
+                        <Button
+                            android:id="@+id/corba2"
+                            android:layout_width="50dp"
+                            android:layout_height="50dp"
+                            android:layout_gravity="center"
+                            android:layout_marginStart="30dp"
+                            android:background="@drawable/roundedcorner"
+                            android:gravity="center"
+                            android:text="+"
+                            android:textSize="20sp" />
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="120dp"
+                        android:layout_marginBottom="10dp"
+                        android:background="@drawable/shape2"
+                        android:orientation="horizontal">
+
+                        <ImageView
+                            android:layout_width="100dp"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center"
+                            android:layout_marginStart="10dp"
+                            android:gravity="center"
+                            android:src="@drawable/ezogelin" />
+
+                        <TextView
+                            android:layout_width="125dp"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center"
+                            android:layout_marginStart="10dp"
+                            android:fontFamily="monospace"
+                            android:gravity="center"
+                            android:text="Ezogelin Çorbası"
+                            android:textSize="17sp"
+                            android:textStyle="bold" />
+
+                        <Button
+                            android:id="@+id/corba3"
+                            android:layout_width="50dp"
+                            android:layout_height="50dp"
+                            android:layout_gravity="center"
+                            android:layout_marginStart="30dp"
+                            android:background="@drawable/roundedcorner"
+                            android:gravity="center"
+                            android:text="+"
+                            android:textSize="20sp" />
+                    </LinearLayout>
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="120dp"
+                        android:layout_marginBottom="10dp"
+                        android:background="@drawable/shape2"
+                        android:orientation="horizontal">
+
+                        <ImageView
+                            android:layout_width="100dp"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center"
+                            android:layout_marginStart="10dp"
+                            android:gravity="center"
+                            android:src="@drawable/domates" />
+
+                        <TextView
+                            android:layout_width="125dp"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center"
+                            android:layout_marginStart="10dp"
+                            android:fontFamily="monospace"
+                            android:gravity="center"
+                            android:text="Domates Çorbası"
+                            android:textSize="17sp"
+                            android:textStyle="bold" />
+
+                        <Button
+                            android:id="@+id/corba4"
+                            android:layout_width="50dp"
+                            android:layout_height="50dp"
+                            android:layout_gravity="center"
+                            android:layout_marginStart="30dp"
+                            android:background="@drawable/roundedcorner"
+                            android:gravity="center"
+                            android:text="+"
+                            android:textSize="20sp" />
+                    </LinearLayout>
+                </LinearLayout>
+            </ScrollView>
+
+            <ScrollView
+                android:id="@+id/pidepanel"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentTop="true"
+                android:layout_marginStart="5dp"
+                android:layout_marginTop="5dp"
+                android:layout_marginEnd="5dp"
+                android:background="@drawable/shape2_radius">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginStart="15dp"
+                    android:layout_marginTop="15dp"
+                    android:layout_marginEnd="15dp"
+                    android:layout_marginBottom="15dp"
+                    android:orientation="vertical"
+                    android:background="@drawable/shape2">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="120dp"
+                        android:layout_marginBottom="10dp"
+                        android:background="@drawable/shape2"
+                        android:orientation="horizontal">
+
+                        <ImageView
+                            android:layout_width="100dp"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center"
+                            android:layout_marginStart="10dp"
+                            android:gravity="center"
+                            android:src="@drawable/kiymali" />
+
+                        <TextView
+                            android:layout_width="125dp"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center"
+                            android:layout_marginStart="10dp"
+                            android:fontFamily="monospace"
+                            android:gravity="center"
+                            android:text="Kıymalı Pide"
+                            android:textSize="17sp"
+                            android:textStyle="bold" />
+
+                        <Button
+                            android:id="@+id/pide1"
+                            android:layout_width="50dp"
+                            android:layout_height="50dp"
+                            android:layout_gravity="center"
+                            android:layout_marginStart="30dp"
+                            android:background="@drawable/roundedcorner"
+                            android:gravity="center"
+                            android:text="+"
+                            android:textSize="20sp" />
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="120dp"
+                        android:layout_marginBottom="10dp"
+                        android:background="@drawable/shape2"
+                        android:orientation="horizontal">
+
+                        <ImageView
+                            android:layout_width="100dp"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center"
+                            android:layout_marginStart="10dp"
+                            android:gravity="center"
+                            android:src="@drawable/kasarlipide" />
+
+                        <TextView
+                            android:layout_width="125dp"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center"
+                            android:layout_marginStart="10dp"
+                            android:fontFamily="monospace"
+                            android:gravity="center"
+                            android:text="Kaşarlı Pide"
+                            android:textSize="17sp"
+                            android:textStyle="bold" />
+
+                        <Button
+                            android:id="@+id/pide2"
+                            android:layout_width="50dp"
+                            android:layout_height="50dp"
+                            android:layout_gravity="center"
+                            android:layout_marginStart="30dp"
+                            android:background="@drawable/roundedcorner"
+                            android:gravity="center"
+                            android:text="+"
+                            android:textSize="20sp" />
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="120dp"
+                        android:layout_marginBottom="10dp"
+                        android:background="@drawable/shape2"
+                        android:orientation="horizontal">
+
+                        <ImageView
+                            android:layout_width="100dp"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center"
+                            android:layout_marginStart="10dp"
+                            android:gravity="center"
+                            android:src="@drawable/kusbasilipide" />
+
+                        <TextView
+                            android:layout_width="125dp"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center"
+                            android:layout_marginStart="10dp"
+                            android:fontFamily="monospace"
+                            android:gravity="center"
+                            android:text="Kuşbaşılı Pide"
+                            android:textSize="17sp"
+                            android:textStyle="bold" />
+
+                        <Button
+                            android:id="@+id/pide3"
+                            android:layout_width="50dp"
+                            android:layout_height="50dp"
+                            android:layout_gravity="center"
+                            android:layout_marginStart="30dp"
+                            android:background="@drawable/roundedcorner"
+                            android:gravity="center"
+                            android:text="+"
+                            android:textSize="20sp" />
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="120dp"
+                        android:layout_marginBottom="20dp"
+                        android:background="@drawable/shape2"
+                        android:orientation="horizontal">
+
+                        <ImageView
+                            android:layout_width="100dp"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center"
+                            android:layout_marginStart="10dp"
+                            android:gravity="center"
+                            android:src="@drawable/karisikpide" />
+
+                        <TextView
+                            android:layout_width="125dp"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center"
+                            android:layout_marginStart="10dp"
+                            android:fontFamily="monospace"
+                            android:gravity="center"
+                            android:text="Karışık Pide"
+                            android:textSize="17sp"
+                            android:textStyle="bold" />
+
+                        <Button
+                            android:id="@+id/pide4"
+                            android:layout_width="50dp"
+                            android:layout_height="50dp"
+                            android:layout_gravity="center"
+                            android:layout_marginStart="30dp"
+                            android:background="@drawable/roundedcorner"
+                            android:gravity="center"
+                            android:text="+"
+                            android:textSize="20sp" />
+                    </LinearLayout>
+                </LinearLayout>
+            </ScrollView>
+
+            <ScrollView
+                android:id="@+id/donerpanel"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentTop="true"
+                android:layout_marginStart="5dp"
+                android:layout_marginTop="5dp"
+                android:layout_marginEnd="5dp"
+                android:background="@drawable/shape2_radius">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginStart="15dp"
+                    android:layout_marginTop="15dp"
+                    android:layout_marginEnd="15dp"
+                    android:layout_marginBottom="15dp"
+                    android:orientation="vertical"
+                    android:background="@drawable/shape2">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="120dp"
+                        android:layout_marginBottom="10dp"
+                        android:background="@drawable/shape2"
+                        android:orientation="horizontal">
+
+                        <ImageView
+                            android:layout_width="100dp"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center"
+                            android:layout_marginStart="10dp"
+                            android:gravity="center"
+                            android:src="@drawable/etdoner" />
+
+                        <TextView
+                            android:layout_width="125dp"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center"
+                            android:layout_marginStart="10dp"
+                            android:fontFamily="monospace"
+                            android:gravity="center"
+                            android:text="Et Döner"
+                            android:textSize="17sp"
+                            android:textStyle="bold" />
+
+                        <Button
+                            android:id="@+id/doner1"
+                            android:layout_width="50dp"
+                            android:layout_height="50dp"
+                            android:layout_gravity="center"
+                            android:layout_marginStart="30dp"
+                            android:background="@drawable/roundedcorner"
+                            android:gravity="center"
+                            android:text="+"
+                            android:textSize="20sp" />
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="120dp"
+                        android:layout_marginBottom="10dp"
+                        android:background="@drawable/shape2"
+                        android:orientation="horizontal">
+
+                        <ImageView
+                            android:layout_width="100dp"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center"
+                            android:layout_marginStart="10dp"
+                            android:gravity="center"
+                            android:src="@drawable/tavukdoner" />
+
+                        <TextView
+                            android:layout_width="125dp"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center"
+                            android:layout_marginStart="10dp"
+                            android:fontFamily="monospace"
+                            android:gravity="center"
+                            android:text="Tavuk Doner"
+                            android:textSize="17sp"
+                            android:textStyle="bold" />
+
+                        <Button
+                            android:id="@+id/doner2"
+                            android:layout_width="50dp"
+                            android:layout_height="50dp"
+                            android:layout_gravity="center"
+                            android:layout_marginStart="30dp"
+                            android:background="@drawable/roundedcorner"
+                            android:gravity="center"
+                            android:text="+"
+                            android:textSize="20sp" />
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="120dp"
+                        android:layout_marginBottom="10dp"
+                        android:background="@drawable/shape2"
+                        android:orientation="horizontal">
+
+                        <ImageView
+                            android:layout_width="100dp"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center"
+                            android:layout_marginStart="10dp"
+                            android:gravity="center"
+                            android:src="@drawable/etiskender" />
+
+                        <TextView
+                            android:layout_width="125dp"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center"
+                            android:layout_marginStart="10dp"
+                            android:fontFamily="monospace"
+                            android:gravity="center"
+                            android:text="Et İskender"
+                            android:textSize="17sp"
+                            android:textStyle="bold" />
+
+                        <Button
+                            android:id="@+id/doner3"
+                            android:layout_width="50dp"
+                            android:layout_height="50dp"
+                            android:layout_gravity="center"
+                            android:layout_marginStart="30dp"
+                            android:background="@drawable/roundedcorner"
+                            android:gravity="center"
+                            android:text="+"
+                            android:textSize="20sp" />
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="120dp"
+                        android:layout_marginBottom="20dp"
+                        android:background="@drawable/shape2"
+                        android:orientation="horizontal">
+
+                        <ImageView
+                            android:layout_width="100dp"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center"
+                            android:layout_marginStart="10dp"
+                            android:gravity="center"
+                            android:src="@drawable/tavukiskender" />
+
+                        <TextView
+                            android:layout_width="125dp"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center"
+                            android:layout_marginStart="10dp"
+                            android:fontFamily="monospace"
+                            android:gravity="center"
+                            android:text="Tavuk İskender"
+                            android:textSize="17sp"
+                            android:textStyle="bold" />
+
+                        <Button
+                            android:id="@+id/doner4"
+                            android:layout_width="50dp"
+                            android:layout_height="50dp"
+                            android:layout_gravity="center"
+                            android:layout_marginStart="30dp"
+                            android:background="@drawable/roundedcorner"
+                            android:gravity="center"
+                            android:text="+"
+                            android:textSize="20sp" />
+                    </LinearLayout>
+                </LinearLayout>
+            </ScrollView>
+
+            <ScrollView
+                android:id="@+id/izgarapanel"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentTop="true"
+                android:layout_marginStart="5dp"
+                android:layout_marginTop="5dp"
+                android:layout_marginEnd="5dp"
+                android:background="@drawable/shape2_radius">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginStart="15dp"
+                    android:layout_marginTop="15dp"
+                    android:layout_marginEnd="15dp"
+                    android:layout_marginBottom="15dp"
+                    android:orientation="vertical"
+                    android:background="@drawable/shape2">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="120dp"
+                        android:layout_marginBottom="10dp"
+                        android:background="@drawable/shape2"
+                        android:orientation="horizontal">
+
+                        <ImageView
+                            android:layout_width="100dp"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center"
+                            android:layout_marginStart="10dp"
+                            android:gravity="center"
+                            android:src="@drawable/karisikizgara" />
+
+                        <TextView
+                            android:layout_width="125dp"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center"
+                            android:layout_marginStart="10dp"
+                            android:fontFamily="monospace"
+                            android:gravity="center"
+                            android:text="Karışık Izgara"
+                            android:textSize="17sp"
+                            android:textStyle="bold" />
+
+                        <Button
+                            android:id="@+id/izgara1"
+                            android:layout_width="50dp"
+                            android:layout_height="50dp"
+                            android:layout_gravity="center"
+                            android:layout_marginStart="30dp"
+                            android:background="@drawable/roundedcorner"
+                            android:gravity="center"
+                            android:text="+"
+                            android:textSize="20sp" />
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="120dp"
+                        android:layout_marginBottom="10dp"
+                        android:background="@drawable/shape2"
+                        android:orientation="horizontal">
+
+                        <ImageView
+                            android:layout_width="100dp"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center"
+                            android:layout_marginStart="10dp"
+                            android:gravity="center"
+                            android:src="@drawable/kofteizgara" />
+
+                        <TextView
+                            android:layout_width="125dp"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center"
+                            android:layout_marginStart="10dp"
+                            android:fontFamily="monospace"
+                            android:gravity="center"
+                            android:text="Köfte Izgara"
+                            android:textSize="17sp"
+                            android:textStyle="bold" />
+
+                        <Button
+                            android:id="@+id/izgara2"
+                            android:layout_width="50dp"
+                            android:layout_height="50dp"
+                            android:layout_gravity="center"
+                            android:layout_marginStart="30dp"
+                            android:background="@drawable/roundedcorner"
+                            android:gravity="center"
+                            android:text="+"
+                            android:textSize="20sp" />
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="120dp"
+                        android:layout_marginBottom="10dp"
+                        android:background="@drawable/shape2"
+                        android:orientation="horizontal">
+
+                        <ImageView
+                            android:layout_width="100dp"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center"
+                            android:layout_marginStart="10dp"
+                            android:gravity="center"
+                            android:src="@drawable/tavukizgara" />
+
+                        <TextView
+                            android:layout_width="125dp"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center"
+                            android:layout_marginStart="10dp"
+                            android:fontFamily="monospace"
+                            android:gravity="center"
+                            android:text="Tavuk Izgara"
+                            android:textSize="17sp"
+                            android:textStyle="bold" />
+
+                        <Button
+                            android:id="@+id/izgara3"
+                            android:layout_width="50dp"
+                            android:layout_height="50dp"
+                            android:layout_gravity="center"
+                            android:layout_marginStart="30dp"
+                            android:background="@drawable/roundedcorner"
+                            android:gravity="center"
+                            android:text="+"
+                            android:textSize="20sp" />
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="120dp"
+                        android:layout_marginBottom="20dp"
+                        android:background="@drawable/shape2"
+                        android:orientation="horizontal">
+
+                        <ImageView
+                            android:layout_width="100dp"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center"
+                            android:layout_marginStart="10dp"
+                            android:gravity="center"
+                            android:src="@drawable/etizgara" />
+
+                        <TextView
+                            android:layout_width="125dp"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center"
+                            android:layout_marginStart="10dp"
+                            android:fontFamily="monospace"
+                            android:gravity="center"
+                            android:text="Et Izgara"
+                            android:textSize="17sp"
+                            android:textStyle="bold" />
+
+                        <Button
+                            android:id="@+id/izgara4"
+                            android:layout_width="50dp"
+                            android:layout_height="50dp"
+                            android:layout_gravity="center"
+                            android:layout_marginStart="30dp"
+                            android:background="@drawable/roundedcorner"
+                            android:gravity="center"
+                            android:text="+"
+                            android:textSize="20sp" />
+                    </LinearLayout>
+                </LinearLayout>
+            </ScrollView>
+
+            <ScrollView
+                android:id="@+id/tatlipanel"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentTop="true"
+                android:layout_marginStart="5dp"
+                android:layout_marginTop="5dp"
+                android:layout_marginEnd="5dp"
+                android:background="@drawable/shape2_radius">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginStart="15dp"
+                    android:layout_marginTop="15dp"
+                    android:layout_marginEnd="15dp"
+                    android:layout_marginBottom="15dp"
+                    android:orientation="vertical"
+                    android:background="@drawable/shape2">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="120dp"
+                        android:layout_marginBottom="10dp"
+                        android:background="@drawable/shape2"
+                        android:orientation="horizontal">
+
+                        <ImageView
+                            android:layout_width="100dp"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center"
+                            android:layout_marginStart="10dp"
+                            android:gravity="center"
+                            android:src="@drawable/sutlac" />
+
+                        <TextView
+                            android:layout_width="125dp"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center"
+                            android:layout_marginStart="10dp"
+                            android:fontFamily="monospace"
+                            android:gravity="center"
+                            android:text="Sütlaç"
+                            android:textSize="17sp"
+                            android:textStyle="bold" />
+
+                        <Button
+                            android:id="@+id/tatli1"
+                            android:layout_width="50dp"
+                            android:layout_height="50dp"
+                            android:layout_gravity="center"
+                            android:layout_marginStart="30dp"
+                            android:background="@drawable/roundedcorner"
+                            android:gravity="center"
+                            android:text="+"
+                            android:textSize="20sp" />
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="120dp"
+                        android:layout_marginBottom="10dp"
+                        android:background="@drawable/shape2"
+                        android:orientation="horizontal">
+
+                        <ImageView
+                            android:layout_width="100dp"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center"
+                            android:layout_marginStart="10dp"
+                            android:gravity="center"
+                            android:src="@drawable/kadayif" />
+
+                        <TextView
+                            android:layout_width="125dp"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center"
+                            android:layout_marginStart="10dp"
+                            android:fontFamily="monospace"
+                            android:gravity="center"
+                            android:text="Kadayıf"
+                            android:textSize="17sp"
+                            android:textStyle="bold" />
+
+                        <Button
+                            android:id="@+id/tatli2"
+                            android:layout_width="50dp"
+                            android:layout_height="50dp"
+                            android:layout_gravity="center"
+                            android:layout_marginStart="30dp"
+                            android:background="@drawable/roundedcorner"
+                            android:gravity="center"
+                            android:text="+"
+                            android:textSize="20sp" />
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="120dp"
+                        android:layout_marginBottom="10dp"
+                        android:background="@drawable/shape2"
+                        android:orientation="horizontal">
+
+                        <ImageView
+                            android:layout_width="100dp"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center"
+                            android:layout_marginStart="10dp"
+                            android:gravity="center"
+                            android:src="@drawable/kunefe" />
+
+                        <TextView
+                            android:layout_width="125dp"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center"
+                            android:layout_marginStart="10dp"
+                            android:fontFamily="monospace"
+                            android:gravity="center"
+                            android:text="Künefe"
+                            android:textSize="17sp"
+                            android:textStyle="bold" />
+
+                        <Button
+                            android:id="@+id/tatli3"
+                            android:layout_width="50dp"
+                            android:layout_height="50dp"
+                            android:layout_gravity="center"
+                            android:layout_marginStart="30dp"
+                            android:background="@drawable/roundedcorner"
+                            android:gravity="center"
+                            android:text="+"
+                            android:textSize="20sp" />
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="120dp"
+                        android:layout_marginBottom="20dp"
+                        android:background="@drawable/shape2"
+                        android:orientation="horizontal">
+
+                        <ImageView
+                            android:layout_width="100dp"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center"
+                            android:layout_marginStart="10dp"
+                            android:gravity="center"
+                            android:src="@drawable/kazandibi" />
+
+                        <TextView
+                            android:layout_width="125dp"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center"
+                            android:layout_marginStart="10dp"
+                            android:fontFamily="monospace"
+                            android:gravity="center"
+                            android:text="Kazandibi"
+                            android:textSize="17sp"
+                            android:textStyle="bold" />
+
+                        <Button
+                            android:id="@+id/tatli4"
+                            android:layout_width="50dp"
+                            android:layout_height="50dp"
+                            android:layout_gravity="center"
+                            android:layout_marginStart="30dp"
+                            android:background="@drawable/roundedcorner"
+                            android:gravity="center"
+                            android:text="+"
+                            android:textSize="20sp" />
+                    </LinearLayout>
+                </LinearLayout>
+            </ScrollView>
+
+            <ScrollView
+                android:id="@+id/icecekpanel"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentTop="true"
+                android:layout_marginStart="5dp"
+                android:layout_marginTop="5dp"
+                android:layout_marginEnd="5dp"
+                android:layout_marginBottom="5dp"
+                android:background="@drawable/shape2_radius">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginStart="15dp"
+                    android:layout_marginTop="15dp"
+                    android:layout_marginEnd="15dp"
+                    android:layout_marginBottom="15dp"
+                    android:orientation="vertical"
+                    android:background="@drawable/shape2">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="120dp"
+                        android:layout_marginBottom="10dp"
+                        android:background="@drawable/shape2"
+                        android:orientation="horizontal">
+
+                        <ImageView
+                            android:layout_width="100dp"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center"
+                            android:layout_marginStart="10dp"
+                            android:gravity="center"
+                            android:src="@drawable/su" />
+
+                        <TextView
+                            android:id="@+id/su"
+                            android:layout_width="125dp"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center"
+                            android:layout_marginStart="10dp"
+                            android:fontFamily="monospace"
+                            android:gravity="center"
+                            android:text="Su"
+                            android:textSize="17sp"
+                            android:textStyle="bold" />
+
+                        <Button
+                            android:id="@+id/icecek1"
+                            android:layout_width="50dp"
+                            android:layout_height="50dp"
+                            android:layout_gravity="center"
+                            android:layout_marginStart="30dp"
+                            android:background="@drawable/roundedcorner"
+                            android:gravity="center"
+                            android:text="+"
+                            android:textSize="20sp" />
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="120dp"
+                        android:layout_marginBottom="10dp"
+                        android:background="@drawable/shape2"
+                        android:orientation="horizontal">
+
+                        <ImageView
+                            android:layout_width="100dp"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center"
+                            android:layout_marginStart="10dp"
+                            android:gravity="center"
+                            android:src="@drawable/ayran" />
+
+                        <TextView
+                            android:layout_width="125dp"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center"
+                            android:layout_marginStart="10dp"
+                            android:fontFamily="monospace"
+                            android:gravity="center"
+                            android:text="Ayran"
+                            android:textSize="17sp"
+                            android:textStyle="bold" />
+
+                        <Button
+                            android:id="@+id/icecek2"
+                            android:layout_width="50dp"
+                            android:layout_height="50dp"
+                            android:layout_gravity="center"
+                            android:layout_marginStart="30dp"
+                            android:background="@drawable/roundedcorner"
+                            android:gravity="center"
+                            android:text="+"
+                            android:textSize="20sp" />
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="120dp"
+                        android:layout_marginBottom="10dp"
+                        android:background="@drawable/shape2"
+                        android:orientation="horizontal">
+
+                        <ImageView
+                            android:layout_width="100dp"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center"
+                            android:layout_marginStart="10dp"
+                            android:gravity="center"
+                            android:src="@drawable/cay" />
+
+                        <TextView
+                            android:layout_width="125dp"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center"
+                            android:layout_marginStart="10dp"
+                            android:fontFamily="monospace"
+                            android:gravity="center"
+                            android:text="Çay"
+                            android:textSize="17sp"
+                            android:textStyle="bold" />
+
+                        <Button
+                            android:id="@+id/icecek3"
+                            android:layout_width="50dp"
+                            android:layout_height="50dp"
+                            android:layout_gravity="center"
+                            android:layout_marginStart="30dp"
+                            android:background="@drawable/roundedcorner"
+                            android:gravity="center"
+                            android:text="+"
+                            android:textSize="20sp" />
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="120dp"
+                        android:layout_marginBottom="10dp"
+                        android:background="@drawable/shape2"
+                        android:orientation="horizontal">
+
+                        <ImageView
+                            android:layout_width="100dp"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center"
+                            android:layout_marginStart="10dp"
+                            android:gravity="center"
+                            android:src="@drawable/kola" />
+
+                        <TextView
+                            android:layout_width="125dp"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center"
+                            android:layout_marginStart="10dp"
+                            android:fontFamily="monospace"
+                            android:gravity="center"
+                            android:text="Kola"
+                            android:textSize="17sp"
+                            android:textStyle="bold" />
+
+                        <Button
+                            android:id="@+id/icecek4"
+                            android:layout_width="50dp"
+                            android:layout_height="50dp"
+                            android:layout_gravity="center"
+                            android:layout_marginStart="30dp"
+                            android:background="@drawable/roundedcorner"
+                            android:gravity="center"
+                            android:text="+"
+                            android:textSize="20sp" />
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="120dp"
+                        android:layout_marginBottom="10dp"
+                        android:background="@drawable/shape2"
+                        android:orientation="horizontal">
+
+                        <ImageView
+                            android:layout_width="100dp"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center"
+                            android:layout_marginStart="10dp"
+                            android:gravity="center"
+                            android:src="@drawable/fanta" />
+
+                        <TextView
+                            android:layout_width="125dp"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center"
+                            android:layout_marginStart="10dp"
+                            android:fontFamily="monospace"
+                            android:gravity="center"
+                            android:text="Fanta"
+                            android:textSize="17sp"
+                            android:textStyle="bold" />
+
+                        <Button
+                            android:id="@+id/icecek5"
+                            android:layout_width="50dp"
+                            android:layout_height="50dp"
+                            android:layout_gravity="center"
+                            android:layout_marginStart="30dp"
+                            android:background="@drawable/roundedcorner"
+                            android:gravity="center"
+                            android:text="+"
+                            android:textSize="20sp" />
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="120dp"
+                        android:layout_marginBottom="10dp"
+                        android:background="@drawable/shape2"
+                        android:orientation="horizontal">
+
+                        <ImageView
+                            android:layout_width="100dp"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center"
+                            android:layout_marginStart="10dp"
+                            android:gravity="center"
+                            android:src="@drawable/sprite" />
+
+                        <TextView
+                            android:layout_width="125dp"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center"
+                            android:layout_marginStart="10dp"
+                            android:fontFamily="monospace"
+                            android:gravity="center"
+                            android:text="Sprite"
+                            android:textSize="17sp"
+                            android:textStyle="bold" />
+
+                        <Button
+                            android:id="@+id/icecek6"
+                            android:layout_width="50dp"
+                            android:layout_height="50dp"
+                            android:layout_gravity="center"
+                            android:layout_marginStart="30dp"
+                            android:background="@drawable/roundedcorner"
+                            android:gravity="center"
+                            android:text="+"
+                            android:textSize="20sp" />
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="120dp"
+                        android:layout_marginBottom="10dp"
+                        android:background="@drawable/shape2"
+                        android:orientation="horizontal">
+
+                        <ImageView
+                            android:layout_width="100dp"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center"
+                            android:layout_marginStart="10dp"
+                            android:gravity="center"
+                            android:src="@drawable/icetea" />
+
+                        <TextView
+                            android:layout_width="125dp"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center"
+                            android:layout_marginStart="10dp"
+                            android:fontFamily="monospace"
+                            android:gravity="center"
+                            android:text="İce Tea"
+                            android:textSize="17sp"
+                            android:textStyle="bold" />
+
+                        <Button
+                            android:id="@+id/icecek7"
+                            android:layout_width="50dp"
+                            android:layout_height="50dp"
+                            android:layout_gravity="center"
+                            android:layout_marginStart="30dp"
+                            android:background="@drawable/roundedcorner"
+                            android:gravity="center"
+                            android:text="+"
+                            android:textSize="20sp" />
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="120dp"
+                        android:layout_marginBottom="20dp"
+                        android:background="@drawable/shape2"
+                        android:orientation="horizontal">
+
+                        <ImageView
+                            android:layout_width="100dp"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center"
+                            android:layout_marginStart="10dp"
+                            android:gravity="center"
+                            android:src="@drawable/soda" />
+
+                        <TextView
+                            android:layout_width="125dp"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center"
+                            android:layout_marginStart="10dp"
+                            android:fontFamily="monospace"
+                            android:gravity="center"
+                            android:text="Soda"
+                            android:textSize="17sp"
+                            android:textStyle="bold" />
+
+                        <Button
+                            android:id="@+id/icecek8"
+                            android:layout_width="50dp"
+                            android:layout_height="50dp"
+                            android:layout_gravity="center"
+                            android:layout_marginStart="30dp"
+                            android:background="@drawable/roundedcorner"
+                            android:gravity="center"
+                            android:text="+"
+                            android:textSize="20sp" />
+                    </LinearLayout>
+                </LinearLayout>
+            </ScrollView>
+        </RelativeLayout>
+    </LinearLayout>
+</FrameLayout>

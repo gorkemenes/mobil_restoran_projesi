@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "602289007502",
+    "project_id": "adisyon-1af4b",
+    "storage_bucket": "adisyon-1af4b.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:602289007502:android:de4588f850c1044255d2df",
+        "android_client_info": {
+          "package_name": "com.example.restaurant"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "602289007502-j37pmqkqud9umoao5d0ijahasnl93kii.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA5aWGWi97RiwZqkZ5c5Ug45wyPVkQ-v_U"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "602289007502-j37pmqkqud9umoao5d0ijahasnl93kii.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

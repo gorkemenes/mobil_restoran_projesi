@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/shape2"
+    android:orientation="vertical"
+    android:gravity="center_horizontal">
+
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Kayıt"
+        android:textColor="@color/white"
+        android:layout_marginTop="100dp"
+        android:fontFamily="serif-monospace"
+        android:textSize="48dp"
+        android:gravity="center"
+        android:textStyle="bold"/>
+
+    <EditText
+        android:id="@+id/kullanici_kayit_text"
+        android:layout_width="350dp"
+        android:layout_height="45dp"
+        android:background="@drawable/forget"
+        android:hint="Kullanıcı Adı"
+        android:textColorHint="@color/white"
+        android:textColor="@color/white"
+        android:textStyle="bold"
+        android:textSize="18dp"
+        android:layout_marginTop="30dp"
+        android:paddingLeft="20dp"
+        android:drawableRight="@drawable/ic_baseline_person_24" />
+
+    <EditText
+        android:id="@+id/email_kayit_text"
+        android:layout_width="350dp"
+        android:layout_height="45dp"
+        android:background="@drawable/forget"
+        android:hint="Email"
+        android:textColorHint="@color/white"
+        android:textColor="@color/white"
+        android:textStyle="bold"
+        android:textSize="18dp"
+        android:layout_marginTop="20dp"
+        android:paddingLeft="20dp"
+        android:drawableRight="@drawable/ic_baseline_email_24" />
+
+    <EditText
+        android:id="@+id/sifre_kayit_text"
+        android:layout_width="350dp"
+        android:layout_height="45dp"
+        android:background="@drawable/forget"
+        android:hint="Şifre"
+        android:textColorHint="@color/white"
+        android:textColor="@color/white"
+        android:textStyle="bold"
+        android:drawableRight="@drawable/ic_baseline_lock_24"
+        android:textSize="18dp"
+        android:inputType="textPassword"
+        android:layout_marginTop="20dp"
+        android:paddingLeft="20dp"/>
+
+    <EditText
+        android:id="@+id/sifretekrar_kayit_text"
+        android:layout_width="350dp"
+        android:layout_height="45dp"
+        android:background="@drawable/forget"
+        android:hint="Şifreyi Doğrula"
+        android:textColorHint="@color/white"
+        android:textColor="@color/white"
+        android:textStyle="bold"
+        android:drawableRight="@drawable/ic_baseline_lock_24"
+        android:textSize="18dp"
+        android:inputType="textPassword"
+        android:layout_marginTop="20dp"
+        android:paddingLeft="20dp"/>
+
+    <Button
+        android:id="@+id/kayit_btn"
+        android:layout_width="350dp"
+        android:layout_height="50dp"
+        android:background="@drawable/shape3"
+        android:backgroundTint="#00000000"
+        android:text="Register"
+        android:textSize="18dp"
+        android:textColor="@color/white"
+        android:textStyle="bold"
+        android:layout_marginTop="20dp"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Zaten bir hesabım var"
+            android:textColor="@color/white"
+            android:layout_marginLeft="80dp"
+            android:textStyle="bold"
+            android:textSize="18dp"
+            android:layout_marginTop="15dp"/>
+
+        <Button
+            android:id="@+id/hesabimvar_btn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Giriş Yap"
+            android:backgroundTint="#008692F7"
+            android:textColor="@color/white"
+            android:textSize="18dp"
+            android:layout_marginTop="15dp"
+            android:layout_marginLeft="10dp"/>
+
+    </LinearLayout>
+
+</LinearLayout>
